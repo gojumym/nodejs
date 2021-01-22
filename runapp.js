@@ -1,4 +1,4 @@
-const http = requrie('http');
+const http = require('http');
 const server = http.createServer().listen(6060);
 server.on('request', (req, res) => {
   console.log('request arrived.');
